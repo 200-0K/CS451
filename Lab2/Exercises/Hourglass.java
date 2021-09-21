@@ -19,7 +19,7 @@ public class Hourglass {
             g.drawPolygon(new int[] {x1,x1*2,x1*3}, new int[] {y1,midY,y1}, 3);
 
             int x2 = x1;
-            int y2 = y1 + ((midY - y1) * 2);
+            int y2 = 2*midY - y1;
             g.drawPolygon(new int[] {x2,x2*2,x2*3}, new int[] {y2,midY,y2}, 3);
         }
     }
